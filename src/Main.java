@@ -54,7 +54,7 @@ public class Main {
         double precioExacto = 49.99f;
         int precioEntero = (int)precioExacto;
         char letra = 'U';
-        System.out.println("En código Astrcii: " + (int)letra)
+        System.out.println("En código Astrcii: " + (int)letra);
     }
 
     public static void ejercicio5(){
@@ -148,6 +148,8 @@ public class Main {
             case 9,10:
                 System.out.println("Sobresaliente");
                 break;
+            default:
+                System.out.println("Fuera de Rango");
             
                 
         }
@@ -155,9 +157,95 @@ public class Main {
             
     }
     public static void ejercicio12(){
+        Systeam.out.println("Estado: ");
+        int temperatura = 31;
+        System.out.print(temperatura > 30? "Calor" : "Normal");
         
     }
     public static void ejercicio13(){
+            Scaner sc = new Scaner(Systeam.in);
+    System.out.print("introduce un numero: ");
+    int num = sc.nextInt();
+    switch((int)num){
+            case 1:
+            System.out.println("Lunes");
+            break;
+            case 2:
+            System.out.println("Martes");
+            break;
+            case 3:
+            System.out.println("Miercoles");
+            break;
+            case 4:
+            System.out.println("Jueves");
+            break;
+            case 5:
+            System.out.println("Viernes");
+            break;
+            case 6:
+            System.out.println("Sabado");
+            break;
+            case 7:
+            System.out.println("Domingo");
+            break;
+        default:
+            System.out.print("Fuera de rango");
+    }
+    }
+ public static void ejercicio14(){
+         Scaner sc = new Scaner(Systeam.in);
+    System.out.print("introduce el numero del mes: ");
+    int mes = sc.nextInt();
+     System.out.println("introduce el anio");
+     int anio = sc.nextInt();
+     boolean esBisiesto = ((anio%4 == 0 && anio%100 != 0) || anio%400 == 0);
+    switch((int)mes){
+            case 1, 3, 5, 7, 8, 10, 12:
+            System.out.println("Tiene 31");
+            break;
+            case 4, 6, 9, 11:
+            System.out.println("Tiene 30");
+            break;
+            case 2:
+            System.out.println("Tiene 28, 29 si es bisiesto");
+            break;
+        default:
+            System.out.print("Fuera de rango");
+    }
+    }
+ public static void ejerciciocond(){
+        Scaner sc = new Scaner(Systeam.in);
+        float precio = 10.00f;
+        System.out.print("Introduce el numero del dia: ");
+        String dia = sc.nextLine();
+        if(dia = "Miercoles"){
+            precio = 5;}
+        }
+        else if(dia = "Martes"){
+            precio = 8;}
+        }
+        else if(dia = "Sábado" || dia = "Domingo"){
+         prcio = 12;}
+        }
+        else{}
+         System.out.print("Introduce tu edad: ");
+        int edad = sc.nextInt();
+        if(edad<12){
+            precio = precio - precio*0.2;}
+        else if(edad>=65){
+            precio = precio - precio*0.3;}
+        else{}
+        System.out.print("Introduce si eres VIP: ");
+        boolean vip = sc.nextBoolean();
+        if(vip = true){
+            precio = precio - precio*0.1;}
+        else{}
+System.out.println("Precio final" + precio);
+}
+ public static void ejercicio15(){
+        
+    }
+ public static void ejercicio16(){
         
     }
 }
