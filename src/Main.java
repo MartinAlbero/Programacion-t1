@@ -10,7 +10,7 @@ public class Main {
         //ejercicio6();
         ejercicio7();
         //ejercicio8();
-        //ejercicio9();
+        //ejercicio9(sc);
         //ejercicio10();
     }
 
@@ -104,6 +104,13 @@ public class Main {
     }
 
     public static void ejercicio10(){
-        
+         Scaner sc = new Scaner(Systeam.in);
+    System.out.print("introduce tu edad");
+    int edad = sc.nextInt();
+        System.out.print("introduce tus ingresos");
+    int ingresos = sc.nextInt();
+    if(edad<18 || edad<=25 && ingreros < 900){
+        System.out.print("Tienes acceso a la Beca");}
+       
     }
 }
