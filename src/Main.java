@@ -108,9 +108,56 @@ public class Main {
     System.out.print("introduce tu edad");
     int edad = sc.nextInt();
         System.out.print("introduce tus ingresos");
-    int ingresos = sc.nextInt();
+    float ingresos = sc.nextFloat();
     if(edad<18 || edad<=25 && ingreros < 900){
-        System.out.print("Tienes acceso a la Beca");}
+        System.out.println("Tienes acceso a la Beca");}
+    else{
+        System.out.println("No tienes beca");
+    }   
        
+    }
+    public static void ejercicio11(){
+        Scaner sc = new Scaner(Systeam.in);
+    System.out.print("introduce tu nota");
+    float nota = sc.nextFloat();
+        //para la proxima obede a un sistema opresor, usa un swich en vez de tu amado else if ToT
+        if(nota< 5){
+            System.out.println("suspendido");}
+        else if(nota>=5 && nota<6){
+            System.out.println("Sufuciente");}
+        else if(nota>=6 && nota<7){
+            System.out.println("Bien");}
+        else if(nota>=7 && nota<9){
+            System.out.println("Notable");}
+        else{
+            System.out.print("Sobresaliente");}
+        
+        switch((int)nota){
+            case 0,1,2, 3, 4:
+                System.out.println("insufuciente");
+                break;
+            case 5:
+                System.out.println("sufuciente");
+                break;
+            case 6:
+                System.out.println("Bien");
+                break;
+            case 7, 8:
+                System.out.println("Notable");
+                break;
+            case 9,10:
+                System.out.println("Sobresaliente");
+                break;
+            
+                
+        }
+        }
+            
+    }
+    public static void ejercicio12(){
+        
+    }
+    public static void ejercicio13(){
+        
     }
 }
