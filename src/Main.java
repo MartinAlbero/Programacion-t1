@@ -1,3 +1,5 @@
+//librerias
+import java.util.scaner;
 public class Main {
     public static void main(String args[]) {
         //ejercicio1();
@@ -28,8 +30,8 @@ public class Main {
     }
 
     public static void ejercicio2(){
-        final float IVA = 0.21f;
-        final int rebaja = 5;      
+        float IVA = 0.21f;
+        int rebaja = 5;      
         float precio_1 = 120.0f;
         precio_1 = precio_1 + (precio_1*IVA) - rebaja;
         System.out.println("Precio del producto rebajado mas el IVA: " + precio_1); 
@@ -88,11 +90,17 @@ public class Main {
     }
 
     public static void ejercicio8(){
-
+        Systeam.out.println("MENÚ DE OPCIONES\n1.\tArchivo \"Nuevo\" \n2.\tRuta: C: \\Archivos\\Java\n3.\tSalir" )
     }
 
     public static void ejercicio9(){
-
+    Scaner sc = new Scaner(Systeam.in);
+    System.out.print("introduce tu edad");
+    int edad = sc.nextInt();
+    sc.nextLine(); //paar que use el \n
+    System.out.print("Introduce tu nombre");   
+    String nombre = nextLine();
+    System.out.println("nombre: "+ nombre + ", Edad: " + edad + " años");
     }
 
     public static void ejercicio10(){
