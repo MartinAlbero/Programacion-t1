@@ -90,7 +90,7 @@ public class Main {
     }
 
     public static void ejercicio8(){
-        Systeam.out.println("MENÚ DE OPCIONES\n1.\tArchivo \"Nuevo\" \n2.\tRuta: C: \\Archivos\\Java\n3.\tSalir" )
+        Systeam.out.println("MENÚ DE OPCIONES\n1.\tArchivo \"Nuevo\" \n2.\tRuta: C: \\\\Archivos\\\\Java\n3.\tSalir" )
     }
 
     public static void ejercicio9(){
