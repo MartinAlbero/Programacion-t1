@@ -243,9 +243,62 @@ public class Main {
 System.out.println("Precio final" + precio);
 }
  public static void ejercicio15(){
-        
+        Scaner sc = new Scaner(Systeam.in);
+     System.out.print("Introduce un numero: ");
+         int num = sc.nextInt();
+         boolean par;
+         
     }
- public static void ejercicio16(){
-        
+public static void ejercicioClase2(scaner sc){
+Scaner sc = new Scaner(Systeam.in);
+System.out.print("Introduce el numero 1: ");
+int num1 = sc.nextInt();
+System.out.print("Introduce el numero 2: ");
+int num2 = sc.nextInt();
+System.out.print("Introduce el numero 3: ");
+int num3 = sc.nextInt();
+if(num1 != num2 && num1 != num3 && num2 !=num3){
+    if(num1 > num2 && num1 > num3){
+        System.out.println(num1 + "es el más grande");
+    }
+    else if(num2 > num1 && num2 > num3){
+        System.out.println(num2 + "es el más grande");
+    }
+    else{
+        System.out.println(num3 + "es el más grande");
+    }
+    if(num1 < num2 && num1 < num3){
+        System.out.println(num1 + "es el más pequeño");
+    }
+    else if(num2 < num1 && num2 < num3){
+        System.out.println(num2 + "es el más pequeño");
+    }
+    else{
+        System.out.println(num3 + "es el más pequeño");
+    }
+}
+else{
+    System.out.println("uno de lso numeros se repite");
+}
+
+}
+ public static void ejercicio15(scaner sc){
+    int num = 1;
+    int i = 0;
+    int suma = 0;
+       
+            while(num > 0){
+                System.out.print("introduce el numero: ");
+                 num = sc.nextInt(); 
+                if(num<0){
+                    System.out.print("Error has introducido un numeroo negativo");
+                }
+                else{
+                    i = i +1;
+                    suma = suma + num;
+                }
+            }
+     System.out.print("El nuemero de numeros introducidos" + i + "la suma de todos los numeros" + suma );    
+     }
     }
 }
