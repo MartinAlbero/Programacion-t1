@@ -12,7 +12,8 @@ public class Main {
         //ejercicio8();
         //ejercicio9(sc);
         //ejercicio10();
-        ejercicio16(sc);
+        //ejercicio16(sc);
+        //ejercicio17(sc);
     }
 
     public static void ejercicio1(){
@@ -340,6 +341,47 @@ Public static void ejercicioClase3(Scanner sc){
     int num = sc.nextInt();
     } while(num%2 == 0);
 System.out.println("Error numero impar")
+}
+Public static void ejercicio17(Scaner sc){
+    System.out.println("Tabla de multiplicar");
+    System.out.print("Introduce un numero: ");
+    int num = sc.nextInt();
+    long fac = 1;
+    for(int i=1;i<=10;i++){
+        System.out.println(num * i);
+    }
+     for(int i= 1; i<=num num; i++){
+         fac = fac * i;
+         if(i!=num)
+         system.out.print(i + " * ");
+         else{}    
+     }
+    System.out.print( num + " = " + fac);
+}
+   
+    
+Public static void ejercicio18(scaner sc){
+    int size = sc.nextInt();
+    for(int i=1;i<=size; i++){ 
+        for(int j=1;j <= i; j++){
+            System.out.print("*");
+        }
+    System.out.println("");
+    }
+Public static void ejercicio18a(scaner sc){
+    int size = sc.nextInt();
+    for(int i=0;i<=size; i++){
+        for(int j=0;j <= size; j++){
+            System.out.print("["+ i + "," + j + "]");
+        }
+    }
+        
+}
+Public static void ejercicio16(){
+    
+}
+Public static void ejercicio16(){
+    
 }
 Public static void ejercicio16(){
     
