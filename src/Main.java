@@ -8,10 +8,11 @@ public class Main {
         //ejercicio4();
         //ejercicio5();
         //ejercicio6();
-        ejercicio7();
+        //ejercicio7();
         //ejercicio8();
         //ejercicio9(sc);
         //ejercicio10();
+        ejercicio16(sc);
     }
 
     public static void ejercicio1(){
@@ -301,4 +302,46 @@ else{
      System.out.print("El nuemero de numeros introducidos" + i + "la suma de todos los numeros" + suma );    
      }
     }
+Public static void ejercicio16(Scanner sc){
+    do{
+    System.out.println("Menu");
+    System.out.println("1.Suma");
+    System.out.println("2.Resta");
+    System.out.println("3.Mult");
+    System.out.println("4.Salida");
+    System.out.print("Introduce un numero");
+    int op = sc.nextInt();
+    if(op != 4){
+    System.out.print("Introduce el primer numero: ");
+    int num1 = sc.nextInt();
+    System.out.print("Introduce el segundo numero: ");
+    int num2 = sc.nextInt();
+    switch((int)op){
+        case 1:
+        System.out.println("Suma: "+ (num1 + num2));
+         case 2:
+        System.out.println("Resta: "+ (num1 - num2));
+         case 3:
+        System.out.println("Multiplicacion: "+ (num1 * num2));
+        default:
+                System.out.println("Error");
+        }
+    }
+        else{
+            System.out.println("Adios")
+        }
+    
+ } while(op != 4);
+    System.out.println("Suma: "+ (num1 +num2))    
+}
+Public static void ejercicioClase3(Scanner sc){
+    do{
+    System.out.plint("Intoduce un nuemero: ");
+    int num = sc.nextInt();
+    } while(num%2 == 0);
+System.out.println("Error numero impar")
+}
+Public static void ejercicio16(){
+    
+}
 }
