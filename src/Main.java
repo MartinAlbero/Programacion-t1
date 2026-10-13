@@ -377,6 +377,60 @@ Public static void ejercicio18a(scaner sc){
     }
         
 }
+Public static void ejercicio18b(scaner sc){
+    int size = sc.nextInt();
+    for(int i=size;i >= 0; i--){ 
+        for(int j = 0 ;j <= i; j++){
+            System.out.print("*");
+        }
+        System.out.print("*");
+        }
+}
+        Public static void ejercicio18c(scaner sc){
+    int size = sc.nextInt();
+    for(int i=1;i<=size; i++){ 
+        for(int j=1;j <= i; j++){
+            System.out.print("*");
+        }
+    System.out.println("");
+    }
+    Public static void ejercicio18d(scaner sc){
+    int size = sc.nextInt();
+    for(int i=0;i < size; i++){ 
+        for(int j = 0;j < size; j++){
+            if(j > size - i){
+            System.out.print("*");
+            }
+            else{
+                System.out.print(" ")
+            }
+        }
+    System.out.println("");
+    }
+        Public static void ejercicio18e(scaner sc){
+    int size = sc.nextInt();
+    for(int i=0;i < size; i++){ 
+        for(int j = 0;j < size; j++){
+            if(j < i){
+            System.out.print(" ");
+            }
+            else{
+                System.out.print("*")
+            }
+        }
+         Public static void ejercicio18e(scaner sc){
+    int size = sc.nextInt();
+    for(int i=size;i >= 0; i--){ 
+        for(int j = 0;j <= size; j++){
+            if(j < i){
+            System.out.print(" ");
+            }
+            else{
+                System.out.print("*")
+            }
+        } 
+    System.out.println("");
+    }
 Public static void ejercicio16(){
     
 }
